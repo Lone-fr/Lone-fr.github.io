@@ -26,7 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle({ title: "TEST" }),
+    Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
